@@ -1,0 +1,289 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+
+}
+
+
+
+.App {
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    background: #073763;
+    background: url(../src/img/movie-9pvmdtvz4cb0xl37.jpg);
+    overflow-y: scroll;
+}
+
+
+/* ---------- SEARCH COMPONENT ----------------- */
+
+
+.mFlixTitle {
+
+
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 9px;
+    color: #cc0000;
+
+
+}
+
+.searchInput {
+
+    width: 60%;
+    height: 60%;
+
+    padding: 9px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background: white;
+
+    font-size: large;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+.searchInput:hover {
+
+    background: rgba(255, 255, 255, 0.657);
+
+}
+
+
+.searchClass {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 99.5%;
+    height: 90px;
+    padding: 3px;
+
+
+    background: rgba(255, 255, 255, 0.546);
+
+
+}
+
+.searchButton {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    width: 9%;
+
+    background: #cc0000;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+
+}
+
+.searchButton:hover {
+
+    background: rgba(255, 255, 255, 0.657);
+    color: #cc0000;
+
+}
+
+/* ----------------MOVIES CARD ------------------ */
+
+.movieSearch {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: right;
+
+    width: 100%;
+    height: auto;
+
+}
+
+.doneSearch {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: left;
+
+
+}
+
+.movies {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.movieCard {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 90%;
+    height: 100%;
+
+    margin: 9px;
+
+    border: 1px solid white;
+    border-radius: 3px;
+
+    background: rgba(255, 255, 255, 0.841);
+
+    color: black;
+}
+
+img {
+
+    border: 1px solid white;
+    margin: 9px;
+
+}
+
+.addTo {
+
+    margin: 9px;
+    height: 18%;
+    width: 30%;
+    border: 0.3px solid white;
+    border-radius: 27px;
+    font-size: smaller;
+    font-weight: 600;
+    color: white;
+    background: #073763;
+
+
+}
+
+.addTo:hover {
+
+    background: #ffd966;
+    color: black;
+
+}
+
+/* --------------- WATCH LIST ---------------------------------- */
+
+.pickAmovie {
+
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 9px;
+    color: #cc0000;
+
+    margin: 9px;
+
+
+}
+
+.clearList {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    width: 18%;
+
+    background: #cc0000;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+
+}
+
+.clearList:hover {
+
+
+    background: rgba(255, 255, 255, 0.657);
+    color: #cc0000;
+
+}
+
+
+.theListTitle {
+
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 9px;
+    color: #cc0000;
+
+    margin: 9px;
+
+}
+
+.theList {
+
+    width: 50%;
+    height: auto;
+    margin: 9px;
+    background: rgba(255, 255, 255, 0.864);
+    border: 1px solid white;
+    border-radius: 9px;
+
+}
+
+.watchList {
+
+
+    width: 40%;
+    height: 150px;
+    margin: 9px;
+    border: 1px solid white;
+    border-radius: 9px;
+
+    background: rgba(255, 255, 255, 0.864);
+
+}
+
+.watchListCard {
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.listItem {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 30px;
+
+
+}
